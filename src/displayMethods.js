@@ -98,7 +98,6 @@ function displaySpeciesPanel(mon) {
 		buildWrapperFamilyTree('div', 'infoFamilyTree', mon),
 		buildWrapperCoverageDefensive('div', 'infoCoverage', mon.type[0], mon.type[1]),
 		//buildWrapperCap('div', 'infoCap', mon.ID),
-		buildWrapperHeldItems('div', 'infoItems', mon.items),
 		//buildWrapperEggGroups('div', 'infoEggGroups', mon.eggGroup),
 	);
 

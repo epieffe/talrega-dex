@@ -453,23 +453,6 @@ function processSaveData(data) {
     }
 }
 
-document.getElementById("saveFileInput").addEventListener("change", function() {
-    const saveFileInput = document.getElementById("saveFileInput");
-    var [file] = saveFileInput.files;
-    if (file) {
-        saveFileInput.value = null;
-        file.arrayBuffer().then(buffer => {
-            const view = new DataView(buffer);
-            const {valid, data} = readDataFromSaveFile(view);
-            if(!valid) {
-                alert("Unable to read save data. Please ensure you've selected a save and not a save state (Most likely a .sav file)");
-                return;
-            }
-            processSaveData(data);
-        })
-    }
-});
-
 const storedSaveData = localStorage.getItem("saveData");
 if (storedSaveData) {
     processSaveData(JSON.parse(storedSaveData));
