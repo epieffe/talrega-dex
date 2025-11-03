@@ -1,8 +1,11 @@
+let USE_CACHE = true;
+let CACHE_VERSION = "talrega dex 1";
+
 async function fetchData() {
-	let request = new Request(`https://raw.githubusercontent.com/${repo}/master/data.js`);
+	let request = new Request(`./data.json`);
 	let response = null;
-	if (typeof caches !== "undefined") {
-		const cache = await caches.open(version);
+	if (USE_CACHE && typeof caches !== "undefined") {
+		const cache = await caches.open(CACHE_VERSION);
 		
 		response = await cache.match(request);
 		if (!response) {
@@ -14,8 +17,7 @@ async function fetchData() {
 	else
 		response = await fetch(request);
 	
-	let data = await response.text();
-	data = new Function("return " + data + ";")();
+	let data = await response.json();
 	
 	species = data.species;
 	moves = data.moves;

@@ -1,6 +1,3 @@
-let repo = "JwowSquared/Radical-Red-Pokedex";
-let version = "rrdex release 1.2.2";
-
 species = null;
 moves = null;
 abilities = null;

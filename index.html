@@ -7,12 +7,12 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
-	<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/JwowSquared/Radical-Red-Pokedex/master/favicon.ico">
-	<title>RR Dex</title>
+	<link rel="icon" type="image/x-icon" href="./favicon.ico">
+	<title>Talrega Dex</title>
 </head>
 <body>
 	<div id="loadingScreen">
-		<p>Loading Radical Red Pokedex...</p>
+		<p>Loading Talrega Pokedex...</p>
 	</div>
 	<main class="hide">
 		<div class="modal fade" id="speciesModal" tabindex="-1" role="dialog" aria-labelledby="Full Pokemon Info" aria-hidden="true">
@@ -55,9 +55,6 @@
 							<span aria-hidden="true">&times;</span>
 						</button>
 						<div id="helpContent">
-							<h1>What does uploading your save do?</h1>
-							<p>Uploading your save is used with <b>Ability Randomizer</b> and <b>Learnset Randomizer</b>. The general pokemon info will change to match your specific randomizer seed.</p>
-						
 							<h1>Filters</h1>
 							<p><b>Name</b>: search for a species by name.</p>
 							<!--<p><b>Region</b>: Show all species from a certain region.</p>-->
@@ -76,8 +73,6 @@
 							<p><b>Only New</b>: Changes <b>Level Cap</b> filter to only show species who are newly available as of a certain level cap.</p>
 							<p><b>Regional</b>: Show all species that are regional variants.</p>
 							<p><b>Mega</b>: Show all species that are Mega evolutions.</p>-->
-							<h1>What happened to the features I know and love from 4.0?</h1>
-							<p>I am in the process of <b>remaking this website entirely.</b> Time I have to work on this project is going towards the new website, and not this one. The old features had to be disabled because I severely changed the structure of my database, so all of the old features that relied on the old database broke completely. The missing features will return in the next episode of Dragon Ball Z. (The new website)</p>
 						</div>
 					</div>
 				</div>
@@ -99,7 +94,9 @@
 		</div>
 
 		<div id="headingWrapper">
-			<div id="credit" style="color: white">Inspired by Ydarissep</div>
+			<a href="https://github.com/JwowSquared/Radical-Red-Pokedex" target="_blank" style="text-decoration: none; color: inherit;">
+				<div id="credit" style="color: white">Forked from RR Dex</div>
+			</a>
 			<button id="showHelpButton" onclick="displayHelp()">Help</button>
 			<div id="speciesControl">
 				<div id="speciesFilterCategoryWrapper">
