@@ -1,5 +1,5 @@
 let USE_CACHE = true;
-let CACHE_VERSION = "talrega dex 1.4";
+let CACHE_VERSION = "talrega dex 1.5";
 
 async function fetchData() {
 	let request = new Request(`./data.json`);

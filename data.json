@@ -20513,6 +20513,111 @@
       "tutorMoves": [250, 45, 304, 246, 135],
       "eggMoves": [],
       "items": []
+    },
+    "405": {
+      "ID": 129,
+      "name": "Deep Maiden",
+      "type": [12, 11],
+      "dexID": 380,
+      "key": "Deep Maiden",
+      "ancestor": 405,
+      "stats": [100, 50, 80, 130, 140, 120],
+      "abilities": [[55, 0], [0, 0], [0, 0]],
+      "levelupMoves": [
+        [8, 1],
+        [42, 1],
+        [248, 1],
+        [61, 1]
+      ],
+      "eggGroup": [],
+      "tmMoves": [],
+      "tutorMoves": [],
+      "eggMoves": [],
+      "items": []
+    },
+    "406": {
+      "ID": 295,
+      "name": "Narmer",
+      "type": [17, 4],
+      "dexID": 381,
+      "key": "Narmer",
+      "ancestor": 406,
+      "stats": [130, 120, 125, 70, 100, 125],
+      "abilities": [[50, 0], [0, 0], [0, 0]],
+      "levelupMoves": [
+        [92, 1],
+        [205, 1],
+        [94, 1],
+        [93, 1]
+      ],
+      "eggGroup": [],
+      "tmMoves": [],
+      "tutorMoves": [],
+      "eggMoves": [],
+      "items": []
+    },
+    "407": {
+      "ID": 376,
+      "name": "Tlachtga",
+      "type": [7, 10],
+      "dexID": 382,
+      "key": "Tlachtga",
+      "ancestor": 407,
+      "stats": [105, 90, 90, 180, 170, 165],
+      "abilities": [[28, 0], [0, 0], [0, 0]],
+      "levelupMoves": [
+        [260, 1],
+        [61, 1],
+        [22, 1],
+        [122, 1]
+      ],
+      "eggGroup": [],
+      "tmMoves": [],
+      "tutorMoves": [],
+      "eggMoves": [],
+      "items": []
+    },
+    "408": {
+      "ID": 160,
+      "name": "Dinogator",
+      "type": [11, 3],
+      "dexID": 383,
+      "key": "Dinogator",
+      "ancestor": 408,
+      "stats": [100, 170, 160, 120, 100, 100],
+      "abilities": [[16, 0], [0, 0], [0, 0]],
+      "levelupMoves": [
+        [92, 1],
+        [205, 1],
+        [74, 1],
+        [288, 1]
+      ],
+      "eggGroup": [],
+      "tmMoves": [],
+      "tutorMoves": [],
+      "eggMoves": [],
+      "items": []
+    },
+    "409": {
+      "ID": 154,
+      "name": "Avid Dragon",
+      "type": [12, 16],
+      "dexID": 384,
+      "key": "Avid Dragon",
+      "ancestor": 409,
+      "stats": [140, 110, 155, 80, 110, 155],
+      "abilities": [[8, 0], [0, 0], [0, 0]],
+      "levelupMoves": [
+        [114, 1],
+        [39, 1],
+        [115, 1],
+        [4, 1]
+      ],
+      "eggGroup": [],
+      "tmMoves": [],
+      "tutorMoves": [],
+      "eggMoves": [],
+      "items": []
     }
   },
   "moves": {
