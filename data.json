@@ -23574,15 +23574,15 @@
     "237": {
       "ID": 237,
       "name": "First Press",
-      "power": 0,
-      "type": 0,
+      "power": 90,
+      "type": 6,
       "accuracy": 100,
       "pp": 10,
       "secondaryEffectChance": 0,
       "target": 0,
-      "priority": 0,
+      "priority": 2,
       "split": 0,
-      "description": ""
+      "description": "Although this move has great power, it only works the first turn each time the user enters battle."
     },
     "238": {
       "ID": 238,
