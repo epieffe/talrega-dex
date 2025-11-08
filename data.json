@@ -722,10 +722,10 @@
     },
     "20": {
       "ID": 20,
-      "name": "Raticate",
+      "name": "Ratreecate",
       "type": [0, 12],
       "dexID": 20,
-      "key": "Raticate",
+      "key": "Ratreecate",
       "ancestor": 19,
       "stats": [65, 100, 60, 110, 50, 75],
       "abilities": [[16, 0], [17, 0], [0, 0]],
