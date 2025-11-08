@@ -21,9 +21,8 @@ function getFullLearnset(mon) {
     learnset.push(...levelMoves);
   }
 
-  if (mon.tmMoves) learnset.push(...mon.tmMoves.map((x) => tmMoves[x]));
-  if (mon.tutorMoves)
-    learnset.push(...mon.tutorMoves.map((x) => tutorMoves[x]));
+  if (mon.tmMoves) learnset.push(...mon.tmMoves);
+  if (mon.tutorMoves) learnset.push(...mon.tutorMoves);
   if (mon.eggMoves) learnset.push(...mon.eggMoves);
   return learnset;
 }

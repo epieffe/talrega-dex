@@ -65,8 +65,8 @@ function displaySpeciesPanel(mon) {
 	let tables = [
 		['speciesLearnsetPrevoExclusiveTable', mon.prevoMoves?.map(x => getMove(x, mon.ID))],
 		['speciesLearnsetLevelUpTable', mon.levelupMoves?.map(x => [getMove(x[0], mon.ID), x[1]])],
-		['speciesLearnsetTMHMTable', mon.tmMoves?.map(x => getMove(tmMoves[x], mon.ID, true)).filter(x => x !== undefined)],
-		['speciesLearnsetTutorTable', mon.tutorMoves?.map(x => getMove(tutorMoves[x], mon.ID, true)).filter(x => x !== undefined)],
+		['speciesLearnsetTMHMTable', mon.tmMoves?.map(x => getMove(x, mon.ID, true)).filter(x => x !== undefined)],
+		['speciesLearnsetTutorTable', mon.tutorMoves?.map(x => getMove(x, mon.ID, true)).filter(x => x !== undefined)],
 		['speciesLearnsetEggMovesTable', mon.eggMoves?.map(x => getMove(x, mon.ID, true))],
 		['speciesLearnsetEventTable', mon.eventMoves?.map(x => getMove(x, mon.ID, true))],
 	]

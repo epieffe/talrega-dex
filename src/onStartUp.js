@@ -1,5 +1,5 @@
 let USE_CACHE = true;
-let CACHE_VERSION = "talrega dex 1.1";
+let CACHE_VERSION = "talrega dex 1.2";
 
 async function fetchData() {
 	let request = new Request(`./data.json`);
@@ -24,8 +24,6 @@ async function fetchData() {
 	abilities = data.abilities;
 	items = data.items;
 	areas = data.areas;
-	tmMoves = data.tmMoves;
-	tutorMoves = data.tutorMoves;
 	trainers = data.trainers;
 	natures = data.natures;
 	eggGroups = data.eggGroups;
