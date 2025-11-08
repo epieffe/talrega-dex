@@ -300,7 +300,7 @@ function buildWrapperFamilyTree(tag, className, mon) {
 	
 	
 	if (mon.order !== undefined) {
-		let forms = Object.values(species).filter(x => x.dexID == mon.dexID).sort(cmp(x => x.order));
+		let forms = Object.values(species).filter(x => x.name == mon.name).sort(cmp(x => x.order));
 		wrapper.append(buildWrapper('div', 'infoTreeFormsLabel', 'Alternate Forms'));
 		let formsWrapper = buildWrapper('div', 'infoFormsWrapper');
 		for (const form of forms) {

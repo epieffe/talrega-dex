@@ -7764,6 +7764,7 @@
     "252": {
       "ID": 252,
       "name": "Blaziken",
+      "order": 0,
       "type": [10, 1],
       "dexID": 257,
       "key": "Blaziken",
@@ -7796,7 +7797,8 @@
     },
     "253": {
       "ID": 253,
-      "name": "Blaziken (Battle Bond)",
+      "name": "Blaziken",
+      "order": 1,
       "type": [10, 24],
       "dexID": 360,
       "key": "Blaziken (Battle Bond)",
@@ -8809,6 +8811,7 @@
     "287": {
       "ID": 287,
       "name": "Kecleon",
+      "order": 0,
       "type": [0],
       "dexID": 352,
       "key": "Kecleon",
@@ -8842,7 +8845,8 @@
     },
     "288": {
       "ID": 288,
-      "name": "Kecleon (Battle Bond)",
+      "name": "Kecleon",
+      "order": 1,
       "type": [0, 24],
       "dexID": 150,
       "key": "Kecleon (Battle Bond)",
@@ -9900,6 +9904,7 @@
     "322": {
       "ID": 322,
       "name": "Plusle",
+      "order": 0,
       "type": [13],
       "dexID": 311,
       "key": "Plusle",
@@ -9929,7 +9934,8 @@
     },
     "323": {
       "ID": 323,
-      "name": "Plusle (Battle Bond)",
+      "name": "Plusle",
+      "order": 1,
       "type": [13, 24],
       "dexID": 249,
       "key": "Plusle (Battle Bond)",
@@ -9965,6 +9971,7 @@
     "324": {
       "ID": 324,
       "name": "Minun",
+      "order": 0,
       "type": [13],
       "dexID": 312,
       "key": "Minun",
@@ -9995,7 +10002,8 @@
     },
     "325": {
       "ID": 325,
-      "name": "Minun (Battle Bond)",
+      "name": "Minun",
+      "order": 1,
       "type": [13, 24],
       "dexID": 250,
       "key": "Minun (Battle Bond)",
@@ -10030,6 +10038,7 @@
     "326": {
       "ID": 326,
       "name": "Mawile",
+      "order": 0,
       "type": [8],
       "dexID": 303,
       "key": "Mawile",
@@ -10064,7 +10073,8 @@
     },
     "327": {
       "ID": 327,
-      "name": "Mawile (Battle Bond)",
+      "name": "Mawile",
+      "order": 1,
       "type": [8, 24],
       "dexID": 151,
       "key": "Mawile (Battle Bond)",
