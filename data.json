@@ -2524,7 +2524,7 @@
       "name": "Farfetch’d",
       "order": 0,
       "type": [1, 2],
-      "dexID": 144,
+      "dexID": 83,
       "key": "Farfetch’d",
       "ancestor": 85,
       "stats": [65, 105, 65, 105, 50, 65],
