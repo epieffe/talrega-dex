@@ -4422,7 +4422,7 @@
         [36, 1],
         [44, 5],
         [229, 10],
-        [252, 15],
+        [187, 15],
         [171, 20],
         [247, 25],
         [39, 30],
@@ -9934,7 +9934,7 @@
         [255, 1],
         [39, 5],
         [222, 10],
-        [356, 15],
+        [175, 15],
         [224, 20],
         [131, 25],
         [254, 30],
@@ -11570,7 +11570,7 @@
         [191, 40],
         [244, 45],
         [170, 50],
-        [372, 55]
+        [143, 55]
       ],
       "eggGroup": [],
       "tmMoves": [
@@ -13974,7 +13974,7 @@
         [308, 1],
         [67, 1],
         [64, 1],
-        [395, 1],
+        [201, 1],
         [394, 1],
         [78, 5],
         [58, 10],
@@ -16484,7 +16484,7 @@
       "levelupMoves": [
         [55, 1],
         [2, 1],
-        [418, 5],
+        [172, 5],
         [168, 10],
         [146, 15],
         [21, 20],
@@ -20237,7 +20237,7 @@
       "abilities": [[48, 0], [0, 0], [0, 0]],
       "levelupMoves": [
         [294, 1],
-        [445, 1],
+        [128, 1],
         [131, 1],
         [352, 1],
         [129, 5],
@@ -20250,7 +20250,7 @@
         [66, 40],
         [92, 45],
         [127, 50],
-        [372, 55],
+        [143, 55],
         [228, 60]
       ],
       "eggGroup": [],
@@ -23766,19 +23766,6 @@
       "split": 2,
       "description": "The foe is sprayed with a cloud of toxic gas that may poison the foe."
     },
-    "252": {
-      "ID": 252,
-      "name": "Frost curse",
-      "power": 0,
-      "type": 0,
-      "accuracy": 100,
-      "pp": 10,
-      "secondaryEffectChance": 0,
-      "target": 0,
-      "priority": 0,
-      "split": 0,
-      "description": ""
-    },
     "253": {
       "ID": 253,
       "name": "Iron Defense",
@@ -25118,19 +25105,6 @@
       "split": 1,
       "description": "Counters any hit with double the damage."
     },
-    "356": {
-      "ID": 356,
-      "name": "Leech life",
-      "power": 80,
-      "type": 6,
-      "accuracy": 100,
-      "pp": 10,
-      "secondaryEffectChance": 0,
-      "target": 0,
-      "priority": 0,
-      "split": 0,
-      "description": "An attack that absorbs half the damage it inflicted to restore HP."
-    },
     "357": {
       "ID": 357,
       "name": "Endeavor",
@@ -25312,19 +25286,6 @@
       "priority": 0,
       "split": 0,
       "description": "May confuse the target (30%)"
-    },
-    "372": {
-      "ID": 372,
-      "name": "Megahorn",
-      "power": 120,
-      "type": 6,
-      "accuracy": 85,
-      "pp": 10,
-      "secondaryEffectChance": 0,
-      "target": 0,
-      "priority": 0,
-      "split": 0,
-      "description": "A brutal ramming attack delivered with a tough and impressive horn."
     },
     "373": {
       "ID": 373,
@@ -25612,19 +25573,6 @@
       "split": 2,
       "description": "Allures the foe to reduce evasiveness. It also attracts wild POKéMON."
     },
-    "395": {
-      "ID": 395,
-      "name": "Bubble Beam",
-      "power": 65,
-      "type": 11,
-      "accuracy": 100,
-      "pp": 20,
-      "secondaryEffectChance": 0,
-      "target": 0,
-      "priority": 0,
-      "split": 1,
-      "description": "A spray of bubbles strikes the foe. It may lower the foe’s SPEED stat."
-    },
     "396": {
       "ID": 396,
       "name": "Water Spout",
@@ -25910,19 +25858,6 @@
       "priority": 0,
       "split": 0,
       "description": "Hits both opponents but causes recoil."
-    },
-    "418": {
-      "ID": 418,
-      "name": "Astonish",
-      "power": 30,
-      "type": 7,
-      "accuracy": 100,
-      "pp": 15,
-      "secondaryEffectChance": 0,
-      "target": 0,
-      "priority": 0,
-      "split": 0,
-      "description": "An attack using a startling shout. It also may make the foe flinch."
     },
     "419": {
       "ID": 419,
@@ -26261,19 +26196,6 @@
       "priority": 0,
       "split": 0,
       "description": "Hits both opponents. May cause opponents to flinch (20%)"
-    },
-    "445": {
-      "ID": 445,
-      "name": "Defense Curl",
-      "power": 0,
-      "type": 0,
-      "accuracy": 0,
-      "pp": 40,
-      "secondaryEffectChance": 0,
-      "target": 0,
-      "priority": 0,
-      "split": 2,
-      "description": "The user curls up to conceal weak spots and raise its DEFENSE stat."
     },
     "446": {
       "ID": 446,
