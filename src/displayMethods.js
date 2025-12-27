@@ -168,14 +168,11 @@ function buildWrapperTypes(tag, className, primary, secondary=null) {
 function buildWrapperAbilities(tag, className, a, species) {
 	let wrapper = buildWrapper(tag, className + 'Wrapper');
 	
-	if ((name = getAbilityName(a[1], species)))
+	if ((name = getAbilityName(a[0], species)))
 		wrapper.append(buildWrapper('div', className + 'Primary', name));
 	
-	if ((name = getAbilityName(a[2], species)))
+	if ((name = getAbilityName(a[1], species)))
 		wrapper.append(buildWrapper('div', className + 'Secondary', name));
-	
-	if ((name = getAbilityName(a[0], species)))
-		wrapper.append(buildWrapper('div', className + 'Hidden', name));
 	
 	return wrapper;
 }
@@ -184,19 +181,14 @@ function buildWrapperAbilitiesFull(tag, className, a, species) {
 	let wrapper = buildWrapper(tag, className + 'Wrapper');
 	
 	let ability;
-	if ((name = getAbilityName(a[1], species))) {
-		ability = getMappedAbility(a[1], species);
+	if ((name = getAbilityName(a[0], species))) {
+		ability = getMappedAbility(a[0], species);
 		wrapper.append(buildWrapper('div', className + 'Primary', name + ' - ' + abilities[ability[0]].description));
 	}
 
-	if ((name = getAbilityName(a[2], species))) {
-		ability = getMappedAbility(a[2], species);
+	if ((name = getAbilityName(a[1], species))) {
+		ability = getMappedAbility(a[1], species);
 		wrapper.append(buildWrapper('div', className + 'Secondary', name + ' - ' + abilities[ability[0]].description));
-	}
-
-	if ((name = getAbilityName(a[0], species))) {
-		ability = getMappedAbility(a[0], species);
-		wrapper.append(buildWrapper('div', className + 'Hidden', name + ' - ' + abilities[ability[0]].description));
 	}
 
 	return wrapper;
